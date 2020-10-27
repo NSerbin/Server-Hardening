@@ -1,5 +1,3 @@
-¿Qué es IPTABLES?
-
 # ¿Qué es IPTABLES?
 IPTABLES es una herramienta avanzada de filtrado de paquetes en Linux. 
 Se encarga de inspeccionar, modificar, reenviar, redirigir y/o eliminar paquetes de red de IP. El código para filtrar paquetes de IP viene integrado en el kernel y está organizado en una colección de 5 tablas, cadenas y reglas, las cuales están asociadas a una eventual acción, que si se cumple, se ejecuta la regla.
@@ -37,14 +35,14 @@ Las acciones se especifican con *-j* o *--jump*. Las reglas pueden ser *ACCEPT*,
 
 Ahora, sabiendo todo esto
 
-## ¿Cómo podemos mejorar la seguridad en nuestros servidores con IPTABLES?
+# ¿Cómo podemos mejorar la seguridad en nuestros servidores con IPTABLES?
 
 Una buena práctica, es borrar las reglas anteriores y empezar desde 0.
 Para esto, debemos abrir la terminal y escribir:
 
 `iptables -F`
 `iptables -P FORWARD ACCEPT`
-`iptables -P OUTPUT	ACCEPT`
+`iptables -P OUTPUT ACCEPT`
 `iptables -P INPUT ACCEPT`
 
 `-F` - flush --> borra todas las reglas de una cadena
