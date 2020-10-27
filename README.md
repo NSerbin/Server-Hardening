@@ -1,24 +1,28 @@
 # Server-Hardening
-## [EN] Tips for server hardening
-#### * SSH 
-[HERE] (https://github.com/NSerbin/Server-Hardening/blob/main/EN-SSH-Tips.md)
-#### * IPTABLES
-[HERE] (https://github.com/NSerbin/Server-Hardening/blob/main/EN-IPTABLES.md)
-#### * HONEYPOT
-#### * NGINX
-#### * APACHE2
-#### * SURICATA
-#### * SNORT
-#### * RSYNC
 
+## [EN] Server Hardening TIPS
 ## [SP] Tips para mejorar la seguridad en nuestros Servidores
-#### * SSH 
-[HERE] (https://github.com/NSerbin/Server-Hardening/blob/main/SP-SSH-Tips.md)
-#### * IPTABLES
-[HERE] (https://github.com/NSerbin/Server-Hardening/blob/main/SP-IPTABLES.md)
-#### * HONEYPOT
-#### * NGINX
-#### * APACHE2
-#### * SURICATA
-#### * SNORT
-#### * RSYNC
+
+### * [EN-SSH](https://github.com/NSerbin/Server-Hardening/blob/main/EN-SSH-Tips.md) 
+### * [SP-SSH](https://github.com/NSerbin/Server-Hardening/blob/main/SP-SSH-Tips.md)
+
+### * [IPTABLES](https://github.com/NSerbin/Server-Hardening/blob/main/EN-IPTABLES.md)
+### * [SP-IPTABLES](https://github.com/NSerbin/Server-Hardening/blob/main/SP-IPTABLES.md)
+
+### * [EN-HONEYPOT]
+### * [SP-HONEYPOT]
+
+### * [EN-NGINX]
+### * [SP-NGINX]
+
+### * [EN-APACHE2]
+### * [SP-APACHE2]
+
+### * [EN-SURICATA]
+### * [SP-SURICATA]
+
+### * [EN-SNORT]
+### * [SP-SNORT]
+
+### * [EN-RSYNC]
+### * [SP-RSYNC]
